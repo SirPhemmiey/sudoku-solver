@@ -1,0 +1,11 @@
+{
+    "transform": {
+      "^.+\\.(t|j)sx?$": "babel-jest"
+    },
+    "transformIgnorePatterns": ["<rootDir>/node_modules/"],
+    "testEnvironment": "node",
+    "runner": "groups",
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
+  }
+  
