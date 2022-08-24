@@ -51,3 +51,7 @@ node_modules/
 
 # dotenv environment variables file
 .env
+
+.sudokus.json
+
+build/
