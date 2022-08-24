@@ -31,11 +31,11 @@ export const moveGame = async (request: Request, response: Response, _: NextFunc
     const row = Number(body.coordinates.toString().split(',')[0]);
     const column = Number(body.coordinates.toString().split(',')[1]);
     const result = game.init(GameType.Sudoku, {}).move(body.board, row, column, body.value);
-    console.log({result});
     return ApiResponse.handleSuccess(response, {
       status: messages.SUCCESS,
       statusCode: StatusCodes.OK,
-      data: { result },
+      //data: {result: result}
+      data: { result: result? result: 'The move is invalid, check again :)' },
     });
   } catch (error: any) {
     console.error(error);

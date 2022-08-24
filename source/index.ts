@@ -1,4 +1,3 @@
-//https://docs.orderful.com/reference/best-practices
 
 import cors from 'cors';
 import express from 'express';

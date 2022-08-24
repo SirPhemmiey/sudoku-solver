@@ -6,7 +6,7 @@
   "scripts": {
     "coverage": "jest --coverage",
     "build": "tsc",
-    "start": "node lib/server.js",
+    "start": "node build/server.js",
     "start:dev": "ts-node-dev source/server.ts",
     "test:unit:watch": "jest --group=unit  --detectOpenHandles --forceExit --verbose  --watchAll --coverage --verbose --config jest.config.json",
     "test:unit": "jest --group=unit  --detectOpenHandles --forceExit --verbose --coverage --verbose --config jest.config.json"
