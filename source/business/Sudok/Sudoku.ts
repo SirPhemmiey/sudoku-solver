@@ -280,7 +280,6 @@ export class Sudoku implements ISudoku {
 
 // const sd = new Sudoku({ difficulty: 20 });
 // let grid = sd.start();
-// console.log({grid, isValid: sd.isValid(grid, 3, 8, 400), isValidBoard: sd.isValidBoard(grid)})
-// console.log({move: sd.move(grid, 3, 8, 400)});
-// console.log({ puzzleSolve:  });
+// console.log({grid, isValid: sd.isValid(grid, 3, 8, 4), isValidBoard: sd.isValidBoard(grid)})
+// console.log({move: sd.move(grid, 3, 8, 4)});
 
