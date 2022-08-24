@@ -1,5 +1,5 @@
-import { Sudoku } from "../Sudoku/Sudoku";
-import { ISudoku } from "../Sudoku/Sudoku.interfaces";
+import { Sudoku } from "../Sudokuu/Sudoku";
+import { ISudoku } from "../Sudokuu/Sudoku.interfaces";
 import { GameType, IObject } from "./Game.interfaces";
 
 export class GameFactory {
