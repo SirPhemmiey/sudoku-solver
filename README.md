@@ -6,6 +6,10 @@
 
 ### How to run
  - `yarn install`
+ - `yarn start:dev`
+
+### Tests
+ - `yarn test`
 
 ### Things i would have done
  - Written most tests
