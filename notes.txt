@@ -1,7 +1,0 @@
-Efficiency
-usage of workers threads
-https://nodesource.com/blog/worker-threads-nodejs/
-
-
-Extensibility
- - i wrote up a factory function

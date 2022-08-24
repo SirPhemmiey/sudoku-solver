@@ -1,6 +1,6 @@
 {
   "transform": {
-    "^.+\\.(t|j)sx?$": "babel-jest"
+    "^.+\\.(t|j)sx?$": "ts-jest"
   },
   "transformIgnorePatterns": ["<rootDir>/node_modules/", "<rootDir>/build/"],
   "testEnvironment": "node",
