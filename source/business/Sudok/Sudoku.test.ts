@@ -1,8 +1,5 @@
-//https://www.codefellows.org/blog/sudoku-solver-from-scratch-in-javascript-tdd-style-a-tutorial/
 
 import { Sudoku } from "./Sudoku";
-
-//test to hsould parse a sudoku board into a 2D array
 
 /** 
  * @group unit
