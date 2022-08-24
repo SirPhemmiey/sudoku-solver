@@ -11,7 +11,6 @@
 ### Tests
  - `yarn test`
 
-### Postman Link
 
 ### Things i would have done
  - Written most tests
