@@ -29,4 +29,10 @@ describe('Sudoku', () => {
         const isMultidimensional = () => startingBoard[0].constructor == Array;
         expect(isMultidimensional()).toBe(true);
     });
+
+    it('should verify that the move is valid', () => {});
+
+    it('should verify that the move is invalid', () => {});
+
+    it('should solve/validate a sudoku', () => {});
 });
